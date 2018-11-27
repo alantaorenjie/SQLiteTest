@@ -1,0 +1,41 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/nni"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="新线程新dbhelper,insert" />
+
+    <Button
+        android:id="@+id/nsi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="新线程,单例dbhelper,insert" />
+
+    <Button
+        android:id="@+id/simr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="单线程写,多线程读" />
+
+    <Button
+        android:id="@+id/mr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="多线程读" />
+
+    <Button
+        android:id="@+id/sinmr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="单线程写,多线程读,读用只读db" />
+</LinearLayout>
